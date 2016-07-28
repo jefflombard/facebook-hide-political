@@ -4,8 +4,12 @@ var lastRefresh = null;
 
 
 function filter_politics(timestamp) {
+    if (!lastRefresh){
+        lastRefresh = 0;
+    }
 
     var newRefresh = timestamp.timeStamp;
+    console.log(newRefresh - lastRefresh);
     if (newRefresh - lastRefresh >= 750 || lastRefresh === null){
         for (var story of stories) {
             html = story.innerHTML.toLowerCase();
@@ -20,7 +24,4 @@ function filter_politics(timestamp) {
     }
 
 }
-filter_politics(0);
 document.addEventListener('scroll',filter_politics);
-
-
