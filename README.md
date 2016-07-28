@@ -1,2 +1,5 @@
-# facebook-hide-political
-A simple javascript script that hides most election/political posts on your news feed.
+# Remove Political Posts Script
+
+1. Open Facebook
+2. Open JavaScript Console
+3. Paste the following code in consoleScript.js into the console
