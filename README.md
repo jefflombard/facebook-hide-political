@@ -1,5 +1,6 @@
 # Remove Political Posts Script
 
-1. Open Facebook
-2. Open JavaScript Console
-3. Paste the following code in consoleScript.js into the console
+1. Open Chrome
+2. Go to Settings>Extensions
+3. Click Uninstall Unpackaged Extension
+4. Navigate to this folder and install
