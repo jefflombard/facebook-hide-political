@@ -24,3 +24,9 @@ function updateState(){
 }
 
 chrome.browserAction.onClicked.addListener(updateState);
+
+chrome.tabs.onUpdated.addListener(function(){
+    if (toggle === true){
+        chrome.tabs.executeScript(null, {file: "filter.js"});
+    }
+});
