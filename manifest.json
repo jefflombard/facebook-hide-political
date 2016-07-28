@@ -1,7 +1,7 @@
 {
   "name": "Hide Political Facebook Posts",
   "manifest_version" : 2,
-  "version": "1.0",
+  "version": "1.1",
   "description": "When clicked will remove most political posts from your news feed.",
   "icons": { "128": "icon.png" },
   "background": {
@@ -14,4 +14,3 @@
   "author": "Jeff Lombard"
   }
 }
-
